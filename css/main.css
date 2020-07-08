@@ -5,12 +5,10 @@
 
 body {
   font: 14px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-size: 2048px 1730px;
   color: #dacfcf;
   line-height: 24px;
   background-position: center;
-  background-size: 2048px 1730px;
-
-        
 }
 
 .clear {
@@ -101,5 +99,10 @@ dd.clear {
   float: none;
   margin: 0;
   height: 15px;
+}
+
+#intern p {
+  font-size: 12px;
+  font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */
