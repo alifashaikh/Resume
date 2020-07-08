@@ -1,0 +1,115 @@
+$colors: (
+    primary:rgb(218, 207, 207),
+    accent: rgb(158, 0, 0),
+    hello:rgb(169,169,169),
+    bye:rgb(17, 39, 238)
+    );
+
+@function color($color-name){
+    @return map-get($colors,$color-name)
+}
+
+
+
+* { margin: 0;
+ padding: 0; }
+
+body { 
+font: 14px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-size: 2048px 1730px;
+        
+color:color( primary); 
+line-height: 24px; 
+background-position: center;
+}
+
+.clear { 
+clear: both; 
+}
+#page-wrap { 
+width: 800px; 
+margin: 40px auto 60px; }
+
+#pic { 
+float: right; 
+margin: -30px 0 0 0; 
+}
+
+h1 { 
+margin: 0 0 16px 0; 
+padding: 0 0 16px 0; 
+font-size: 45px; 
+font-weight: bold; 
+letter-spacing: -2px; 
+border-bottom: 1px solid  color( accent); 
+}
+
+h2 { 
+font-size: 18px; 
+margin: 0 0 6px 0;
+ position: relative; 
+}
+
+#contact-info p{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+p { 
+margin: 0 0 16px 0; 
+}
+a { 
+color:color(hello); 
+text-decoration: none;
+     border-bottom: 1px dotted color(hello);
+     text-justify: auto;
+
+     
+ }
+a:hover { 
+border-bottom-style: solid; 
+    color: color(bye); 
+    
+}
+ul { 
+margin: 0 0 32px 17px;
+ }
+
+#objective {
+ width: 500px; 
+ float: left; 
+}
+#objective p 
+{ font-family: Georgia, 'Times New Roman', Times, serif; 
+font-style:italic; 
+font-size: 18px;
+color: color(hello); 
+}
+
+dt { 
+    font-style:none; 
+    font-weight: bold; 
+    font-size: 20px; 
+    text-align: right; 
+    padding: 0 26px 0 0; 
+    width: 150px; 
+    float: left; 
+    height: 100px; 
+    border-right: 1px solid color( accent);  }
+
+dd { 
+    width: 600px; 
+    float: right; 
+font-size: 14px;}
+
+dd.clear { 
+    float: none; 
+    margin: 0; 
+    height: 15px; }
+
+    #intern p{
+        font-size: 12px;
+    font-weight: bold;
+    }

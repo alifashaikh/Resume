@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 14px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-size: 2048px 1730px;
+  color: #dacfcf;
+  line-height: 24px;
+  background-position: center;
+}
+
+.clear {
+  clear: both;
+}
+
+#page-wrap {
+  width: 800px;
+  margin: 40px auto 60px;
+}
+
+#pic {
+  float: right;
+  margin: -30px 0 0 0;
+}
+
+h1 {
+  margin: 0 0 16px 0;
+  padding: 0 0 16px 0;
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  border-bottom: 1px solid #9e0000;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 0 0 6px 0;
+  position: relative;
+}
+
+#contact-info p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+p {
+  margin: 0 0 16px 0;
+}
+
+a {
+  color: darkgray;
+  text-decoration: none;
+  border-bottom: 1px dotted darkgray;
+  text-justify: auto;
+}
+
+a:hover {
+  border-bottom-style: solid;
+  color: #1127ee;
+}
+
+ul {
+  margin: 0 0 32px 17px;
+}
+
+#objective {
+  width: 500px;
+  float: left;
+}
+
+#objective p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 18px;
+  color: darkgray;
+}
+
+dt {
+  font-style: none;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+  padding: 0 26px 0 0;
+  width: 150px;
+  float: left;
+  height: 100px;
+  border-right: 1px solid #9e0000;
+}
+
+dd {
+  width: 600px;
+  float: right;
+  font-size: 14px;
+}
+
+dd.clear {
+  float: none;
+  margin: 0;
+  height: 15px;
+}
+
+#intern p {
+  font-size: 12px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */
